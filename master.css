@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+.header-container{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid white;
+    
+}
+.grid-container{
+    height: calc(100vh - 105px);
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    overflow: auto;
+
+}
+
+.grid-container .guest-card{
+    width: 150px ;
+    height: 105px;
+    width: calc(100% / 5);
+    border: 1px solid white;
+    
+}
+
+
+.header-container button{
+    background-color: rgba(52, 52, 52, 0.904);
+    color: white;
+    padding: 5px 5px;
+    margin: 10px;
+    border-radius: 5px;  
+}
+
+.footer-container{
+    height: 55px;
+    border-top: 1px whitesmoke; 
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-around;
+}
